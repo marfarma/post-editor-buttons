@@ -18,6 +18,9 @@ For example you can add a "h3" button to make subheaders in your post.<br />
 There are virtually endless buttons you can add.
 </p>
 
+<p>
+For Support Please visit my blog at <a href="http://orenyomtov.info">Oren Yomtov</a>. You can also view all of my <a href="http://orenyomtov.info/oren/projects/wordpress-plugins">Wordpress Plugins</a> in my blog.
+</p>
 == Installation ==
 
 1. Upload the `post-editor-buttons` directory to the `/wp-content/plugins/` directory
