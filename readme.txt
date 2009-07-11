@@ -1,0 +1,37 @@
+=== Post Editor Buttons ===
+Author: Oren Yomtov
+Contributors: Oren Yomtov
+Donate link: http://orenyomtov.info/donate
+Tags: toolbar,buttons,post editor,toolbar buttons,add buttons,button,b,post toolbar,post textarea,post
+Requires at least: 2.5
+Tested up to: 2.8.1
+Stable tag: 0.9
+
+This plugin allows you add your own buttons to the post editor's toolbar.
+
+== Description ==
+
+<p>
+This plugins allows you to add your own buttons to the post edtor's toolbar.<br />
+I'm talking about the buttons that you see above your content text area when editing posts (b,i,link,img,ul,li).<br />
+For example you can add a "h3" button to make subheaders in your post.<br />
+There are virtually endless buttons you can add.
+</p>
+
+== Installation ==
+
+1. Upload the `post-editor-buttons` directory to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Visit the plugins page by clicking the `Use` link in the plugins description or from the `Tools` admin panel.
+
+That's it, now you can start adding your own buttons.
+
+== Screenshots ==
+
+1. This is how the plugins interface looks like
+2. This is the output of the setting above
+
+== Changelog ==
+
+<strong>0.9:</strong>
+<p>First release</p>
