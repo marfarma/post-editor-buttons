@@ -5,13 +5,13 @@ Donate link: http://orenyomtov.info/donate
 Tags: toolbar,buttons,post editor,toolbar buttons,add buttons,button,b,post toolbar,post textarea,post
 Requires at least: 2.5
 Tested up to: 2.8.1
-Stable tag: 1.0
+Stable tag: 1.1
 
 This plugin allows you add your own buttons to the post editor's toolbar.
 
 == Description ==
 
-<strong>1.0:</strong>
+<strong>1.1:</strong>
 <p>Bug fix - Now you can add more then one button.</p>
 
 <p>
@@ -39,8 +39,8 @@ That's it, now you can start adding your own buttons.
 
 == Changelog ==
 
-<strong>1.0:</strong>
+<strong>1.1:</strong>
 <p>Bug fix - Now you can add more then one button.</p>
 
-<strong>0.9:</strong>
+<strong>1.0:</strong>
 <p>First release</p>

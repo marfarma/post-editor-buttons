@@ -3,7 +3,7 @@
 Plugin Name: Post Editor Buttons
 Plugin URI: http://orenyomtov.info
 Description: This plugin allows you to add buttons to the post editor.
-Version: 1.0
+Version: 1.1
 Author: Oren Yomtov
 Author URI: http://orenyomtov.info
 */
@@ -65,8 +65,8 @@ function peb_conf() {
 <p>
 The best way to explain is by using examples:<br />
 Caption:b<br />
-Before:<strong><br />
-After:</strong><br />
+Before:&lt;strong&gt;<br />
+After:&lt;/strong&gt;<br />
 </p>
 
 <table class="form-table" id="op_table">
