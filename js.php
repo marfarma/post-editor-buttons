@@ -22,13 +22,13 @@ function peb_addMore(){
 	var row = document.createElement("TR");
 
 	var td1 = document.createElement("TD");
-	td1.innerHTML='<input type="text" name="mcfm_lftag[]" />';
+	td1.innerHTML='<input type="text" name="peb_lftag[]" />';
 
 	var td2 = document.createElement("TD");
-	td2.innerHTML='<input type="text" name="mcfm_fname[]" />';
+	td2.innerHTML='<input type="text" name="peb_fname[]" />';
 
 	var td3 = document.createElement("TD");
-	td3.innerHTML='<input type="text" name="mcfm_fvalue[]" />';
+	td3.innerHTML='<input type="text" name="peb_fvalue[]" />';
 
 	row.appendChild(td1);
 	row.appendChild(td2);
