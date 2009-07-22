@@ -6,9 +6,8 @@ $after=get_option('peb_after');
 
 for ($i=0;$i<count($caption);$i++) {
 ?>
-edButtons[edButtons.length]=new edButton("peb_<?php echo $i; ?>","<?php echo str_replace('"','&quot;',$caption[$i]); ?>","<?php echo str_replace('"','\"',$before[$i]); ?>","<?php echo str_replace('"','\"',$after[$i]); ?>","<?php echo str_replace('"','&quot;',$caption[$i]); ?>");
-j.Buttons[j.Buttons.length]=new edButton("peb_<?php echo $i; ?>","<?php echo str_replace('"','&quot;',$caption[$i]); ?>","<?php echo str_replace('"','\"',$before[$i]); ?>","<?php echo str_replace('"','\"',$after[$i]); ?>","<?php echo str_replace('"','&quot;',$caption[$i]); ?>");
 
+edButtons[edButtons.length]=new edButton("peb_<?php echo $i; ?>","<?php echo str_replace('"','&quot;',$caption[$i]); ?>","<?php echo str_replace('"','\"',$before[$i]); ?>","<?php echo str_replace('"','\"',$after[$i]); ?>","<?php echo str_replace('"','&quot;',$caption[$i]); ?>");
 <?php } ?>
 
 

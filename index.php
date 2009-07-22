@@ -3,7 +3,7 @@
 Plugin Name: Post Editor Buttons
 Plugin URI: http://orenyomtov.info
 Description: This plugin allows you to add buttons to the post editor.
-Version: 1.2
+Version: 1.3
 Author: Oren Yomtov
 Author URI: http://orenyomtov.info
 */
