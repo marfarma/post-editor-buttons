@@ -4,15 +4,15 @@ Contributors: Oren Yomtov
 Donate link: http://orenyomtov.info/donate
 Tags: toolbar,buttons,post editor,toolbar buttons,add buttons,button,b,post toolbar,post textarea,post
 Requires at least: 2.5
-Tested up to: 2.8.2
-Stable tag: 1.3
+Tested up to: 2.8.4
+Stable tag: 1.4
 
 This plugin allows you add your own buttons to the post editor's toolbar.
 
 == Description ==
 
-<p><strong>1.3:</strong>
-Bug fix - Now you can use quotation marks.</p>
+<p><strong>1.4:</strong>
+Bug fix - WordPress 2.8.4 bug fix.</p>
 
 <p>
 This plugins allows you to add your own buttons to the post edtor's toolbar.<br />
@@ -38,6 +38,9 @@ That's it, now you can start adding your own buttons.
 2. This is the output of the setting above
 
 == Changelog ==
+
+= 1.4 =
+*Bug fix - WordPress 2.8.4 bug fix.
 
 = 1.3 =
 *Bug fix - Now you can use quotation marks.
