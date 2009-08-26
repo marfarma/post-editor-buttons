@@ -31,7 +31,7 @@ function peb_init() {
 	add_action('admin_menu', 'peb_config_page');
 	add_action('admin_head', 'peb_admin_head');
 	add_filter('plugin_action_links', 'peb_actions', 10, 2 );
-	add_action('wp_footer', 'peb_footer');
+	//add_action('wp_footer', 'peb_footer');
 }
 
 function peb_admin_head() {
@@ -95,11 +95,11 @@ for ($i=0;$i<count($caption);$i++) {
 
 <a  href="#" onclick="return peb_addMore();"><?php echo _e('New') ?></a><br />
 
-<p>Link <a href="http://orenyomtov.info">me</a> once in 10 page loads in the footer (tiny text)
+<!--<p>Link <a href="http://orenyomtov.info">me</a> once in 10 page loads in the footer (tiny text)
 <select name="peb_footer">
 <option value="">Yes :)</option>
 <option value="no" <?php if ( get_option('peb_footer')=='no' ) echo 'selected="selected" '?>>No :(</option>
-</select></p>
+</select></p>-->
 
 <input type="hidden" name="action" value="update" />
 <input type="hidden" name="page_options" value="peb_caption,peb_before,peb_after,peb_footer" />
