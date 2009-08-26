@@ -3,7 +3,7 @@
 Plugin Name: Post Editor Buttons
 Plugin URI: http://orenyomtov.info
 Description: This plugin allows you to add buttons to the post editor.
-Version: 1.4
+Version: 1.5
 Author: Oren Yomtov
 Author URI: http://orenyomtov.info
 */
@@ -85,9 +85,9 @@ $after=get_option('peb_after');
 for ($i=0;$i<count($caption);$i++) {
 ?>
 <tr valign="top" id="row<?php echo $i; ?>">
-<td><input type="text" name="peb_caption[]" value="<?php echo str_replace('"','&quot;',$caption[$i]); ?>" /></td>
-<td><input type="text" name="peb_before[]" value="<?php echo str_replace('"','&quot;',$before[$i]); ?>" /></td>
-<td><input type="text" name="peb_after[]" value="<?php echo str_replace('"','&quot;',$after[$i]); ?>" /></td>
+<td><input type="text" name="peb_caption[]" value="<?php echo str_replace('"','&quot;',htmlentities($caption[$i])); ?>" /></td>
+<td><input type="text" name="peb_before[]" value="<?php echo str_replace('"','&quot;',htmlentities($before[$i])); ?>" /></td>
+<td><input type="text" name="peb_after[]" value="<?php echo str_replace('"','&quot;',htmlentities($after[$i])); ?>" /></td>
 <td><a  href="#" onclick="return peb_deleteRow('<?php echo $i; ?>');"><?php echo _e('Delete') ?></a></td>
 </tr>
 <?php } ?>
