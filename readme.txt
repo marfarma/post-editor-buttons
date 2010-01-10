@@ -25,7 +25,7 @@ There are virtually endless buttons you can add.
 For Support Please visit my blog at <a href="http://orenyomtov.info">Oren Yomtov</a>. You can also view all of my <a href="http://orenyomtov.info/oren/projects/wordpress-plugins">Wordpress Plugins</a> in my blog.
 </p>
 
-<p style="text-align:center"><a href="http://twitter.com/orenyomtov"><img src="http://www.twitterbuttons.org/images/twitter-6c.png" title="Follow me on twitter for interesting updates" width="259" height="88" style="margin-left:auto;margin-right:auto;width:259" border="0" /></a></p>
+<p style="text-align:center"><a href="http://twitter.com/orenyomtov"><img src="http://orenyomtov.info/downloads/twitter.png" title="Follow me on twitter for interesting updates" border="0" /></a></p>
 == Installation ==
 
 1. Upload the `post-editor-buttons` directory to the `/wp-content/plugins/` directory
