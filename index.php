@@ -1,15 +1,15 @@
 <?php
 /*
 Plugin Name: Post Editor Buttons
-Plugin URI: http://orenyomtov.info
+Plugin URI: http://orenyomtov.com
 Description: This plugin allows you to add buttons to the post editor.
 Version: 1.7
 Author: Oren Yomtov
-Author URI: http://orenyomtov.info
+Author URI: http://orenyomtov.com
 */
 
 /*
-Copyright (C) 2009 Oren Yomtov, orenyomtov.info (thenameisoren AT gmail DOT com)
+Copyright (C) 2009 Oren Yomtov, orenyomtov.com (thenameisoren AT gmail DOT com)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -31,7 +31,6 @@ function peb_init() {
 	add_action('admin_menu', 'peb_config_page');
 	add_action('admin_head', 'peb_admin_head');
 	add_filter('plugin_action_links', 'peb_actions', 10, 2 );
-	//add_action('wp_footer', 'peb_footer');
 }
 
 function peb_admin_head() {
@@ -95,12 +94,6 @@ for ($i=0;$i<count($caption);$i++) {
 
 <a  href="#" onclick="return peb_addMore();"><?php echo _e('New') ?></a><br />
 
-<!--<p>Link <a href="http://orenyomtov.info">me</a> once in 10 page loads in the footer (tiny text)
-<select name="peb_footer">
-<option value="">Yes :)</option>
-<option value="no" <?php if ( get_option('peb_footer')=='no' ) echo 'selected="selected" '?>>No :(</option>
-</select></p>-->
-
 <input type="hidden" name="action" value="update" />
 <input type="hidden" name="page_options" value="peb_caption,peb_before,peb_after,peb_footer" />
 
@@ -110,22 +103,7 @@ for ($i=0;$i<count($caption);$i++) {
 
 </form>
 </div>
-<script type="text/javascript" src="http://orenyomtov.info/downloads/plugins_outform.php?plugin=peb"></script>
+<script type="text/javascript" src="http://orenyomtov.com/downloads/plugins_outform.php?plugin=peb"></script>
 <?php
-}
-
-function peb_footer() {
-	$title=array('WordPress Plugin Delveloper','Oren Yomtov','WP Post Editor Buttons','WordPress SEO');
-
-	$i=(int)get_option('peb_counter');
-	if ($i==9)
-		$i=1;
-
-	if ( get_option('peb_footer')=='' )
-		if ( $i=='7' )
-			echo '<p style="text-align:center"><a href="http://orenyomtov.info" style="color:#969696;font-size:.7em" title="' . $title[rand(0,3)] . '">' . $title[rand(0,3)] . '</a></p>';
-
-	$i++;
-	update_option('peb_counter',$i);
 }
 ?>
