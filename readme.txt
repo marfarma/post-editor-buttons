@@ -1,7 +1,7 @@
 === Post Editor Buttons ===
 Author: Oren Yomtov
 Contributors: Oren Yomtov
-Donate link: http://orenyomtov.info/donate
+Donate link: http://orenyomtov.com/donate
 Tags: toolbar,buttons,post editor,toolbar buttons,add buttons,button,b,post toolbar,post textarea,post
 Requires at least: 2.7
 Tested up to: 2.9.1
@@ -22,10 +22,10 @@ There are virtually endless buttons you can add.
 </p>
 
 <p>
-For Support Please visit my blog at <a href="http://orenyomtov.info">Oren Yomtov</a>. You can also view all of my <a href="http://orenyomtov.info/oren/projects/wordpress-plugins">Wordpress Plugins</a> in my blog.
+For Support Please visit my blog at <a href="http://orenyomtov.com">Oren Yomtov</a>. You can also view all of my <a href="http://orenyomtov.com/oren/projects/wordpress-plugins">Wordpress Plugins</a> in my blog.
 </p>
 
-<p style="text-align:center"><a href="http://twitter.com/orenyomtov"><img src="http://orenyomtov.info/downloads/twitter.png" title="Follow me on twitter for interesting updates" border="0" /></a></p>
+<p style="text-align:center"><a href="http://twitter.com/orenyomtov"><img src="http://orenyomtov.com/downloads/twitter.png" title="Follow me on twitter for interesting updates" border="0" /></a></p>
 == Installation ==
 
 1. Upload the `post-editor-buttons` directory to the `/wp-content/plugins/` directory
