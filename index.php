@@ -95,7 +95,7 @@ for ($i=0;$i<count($caption);$i++) {
 <a  href="#" onclick="return peb_addMore();"><?php echo _e('New') ?></a><br />
 
 <input type="hidden" name="action" value="update" />
-<input type="hidden" name="page_options" value="peb_caption,peb_before,peb_after,peb_footer" />
+<input type="hidden" name="page_options" value="peb_caption,peb_before,peb_after" />
 
 <p class="submit">
 <input type="submit" class="button-primary" value="<?php _e('Save Changes') ?>" />
